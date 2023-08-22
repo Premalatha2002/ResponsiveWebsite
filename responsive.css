@@ -1,0 +1,170 @@
+body {
+color:black;
+background-color: white;
+
+padding: 0%;
+margin: 0%;
+}
+
+header{
+    background-color: orange;
+    color: black;
+}
+
+.logo{
+    float:left;
+}
+.heading{
+    font-size: 3em;
+    text-align: center;
+}
+.subheading{
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+ 
+header nav {
+    margin: 0;
+    padding: 0;
+    background-color: orange;
+    color: black;
+}
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   position:relative;
+   float:left;
+   background-color:black;
+    color: orange;
+    overflow: hidden;
+    width:100%;
+
+}
+header ul li{
+    display: inline-block;
+    
+    
+}
+header nav a{
+    display: block;
+    padding:0 10px;
+    font-size: 1em;
+    line-height: 50px;
+    color: orange;
+    position: center;
+    text-align: left;
+    
+    
+}
+header nav a:hover{
+    background-color: brown;
+    color:darkkhaki;
+}
+.main {
+    clear: both;
+
+}
+.main {
+    background-color: #eee;
+    clear: both;
+ }
+  
+ .main img {
+    float: left;
+    padding: 10px;
+    max-width: 96%;
+    border: 10px white solid;
+    margin: 2%;
+ }
+ .main article {
+    padding: 10px;
+    font-size: 1.2em;
+    //border-bottom: 1px solid black;
+    //overflow: hidden;
+ }
+
+.menu{
+   
+   background-color:black;
+    color: orange;
+    text-align: left;
+}
+footer{
+     margin-top: 1px;
+     background-color: #eee;
+ }
+
+  
+ .footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 20px;
+    border-top: 1px;
+ }
+  
+ .footer>div {
+    float: left;
+   
+ }
+  
+ .first,
+ .third {
+    width: 25%;
+ }
+  
+ .col {
+    margin: auto;
+    width: 50%;
+    list-style: none;
+ }
+  
+ .second {
+    text-align: left;
+    width: 50%;
+ }
+@media all and (max-width:500px)
+{
+    header nav ul li{
+        display:block;
+
+    }
+    .menu{
+        width:100%;
+        background-color: black;
+        color: orange;
+        display: block;
+        text-align: center;
+    }
+    .main img{
+        width: 100%;
+    }
+    
+   .subheading {
+    margin-bottom: 0px;
+}
+
+.heading {
+    padding: 0px;
+}
+
+.first,
+.third {
+    width: 100%;
+}
+
+.col {
+    margin: auto;
+    width: 100%;
+}
+
+.second {
+    text-align: center;
+    width: 100%;
+}
+
+.second li {
+    list-style: none;
+}
+}
